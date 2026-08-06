@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="VillageConnect favicon">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0f4c81" />
+      <stop offset="55%" stop-color="#1c8c8a" />
+      <stop offset="100%" stop-color="#35a65d" />
+    </linearGradient>
+    <linearGradient id="field" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0e7a46" />
+      <stop offset="100%" stop-color="#54b36a" />
+    </linearGradient>
+    <radialGradient id="sun" cx="50%" cy="38%" r="40%">
+      <stop offset="0%" stop-color="#fff4b0" />
+      <stop offset="100%" stop-color="#ffd06b" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="signal" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#6ee7ff" />
+      <stop offset="100%" stop-color="#d8f7ff" />
+    </linearGradient>
+  </defs>
+
+  <rect x="2" y="2" width="60" height="60" rx="16" fill="url(#sky)" />
+  <circle cx="32" cy="25" r="15" fill="url(#sun)" />
+
+  <path d="M10 46C18 40 25 38 32 40C39 42 46 41 54 35V58H10Z" fill="url(#field)" />
+  <path d="M10 52C18 47 25 45 32 46C39 47 46 47 54 43V60H10Z" fill="#0a6039" fill-opacity="0.55" />
+
+  <path d="M23 44L32 37L41 44V54H35V48H29V54H23Z" fill="#f8fffb" />
+  <rect x="30.5" y="48" width="3" height="6" rx="1" fill="#1d7b67" />
+
+  <path d="M21 28A11 11 0 0 1 43 28" fill="none" stroke="url(#signal)" stroke-width="2.8" stroke-linecap="round" />
+  <path d="M17 24A15 15 0 0 1 47 24" fill="none" stroke="url(#signal)" stroke-opacity="0.75" stroke-width="2.2" stroke-linecap="round" />
+  <circle cx="32" cy="30" r="2.4" fill="#eafcff" />
+
+  <rect x="2" y="2" width="60" height="60" rx="16" fill="none" stroke="#ffffff" stroke-opacity="0.22" stroke-width="1.4" />
+</svg>

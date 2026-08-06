@@ -1,0 +1,27 @@
+{
+  "name": "village-connect-backend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "npm run build && npm run start",
+    "build": "node ./build.mjs",
+    "start": "node --enable-source-maps ./dist/index.mjs"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2",
+    "drizzle-orm": "^0.45.2",
+    "express": "^5",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.5.0",
+    "pino": "^9",
+    "pino-http": "^10",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "esbuild": "^0.27.7",
+    "mongodb-memory-server": "^11.0.1"
+  }
+}

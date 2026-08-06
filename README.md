@@ -1,4 +1,3 @@
-
 # VillageConnect
 
 VillageConnect is a full-stack community platform that connects village users with services including agriculture, healthcare, education, jobs, environmental awareness, and grievance management.
